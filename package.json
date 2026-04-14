@@ -1,1 +1,23 @@
-{\n  "name": "pipxteset",\n  "private": false,\n  "dependencies": {\n    "pixi.js": "^6.0.0",\n    "@inlet/react-pixi": "^7.0.0",\n    "howler": "^2.2.3",\n    "react": "^18.0.0",\n    "react-dom": "^18.0.0",\n    "typescript": "^4.0.0",\n    "vite": "^3.0.0"\n  },\n  "scripts": {\n    "dev": "vite",\n    "build": "vite build",\n    "preview": "vite preview"\n  }\n}
+{
+  "name": "react-pixi-mobile-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pixi.js": "^7.2.4",
+    "@inlet/react-pixi": "^7.1.0",
+    "howler": "^2.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vite": "^5.0.0",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6"
+  }
+}
